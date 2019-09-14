@@ -8,6 +8,11 @@ const connections = [];
 server.listen(process.env.PORT || 3000);
 console.log('Server running...');
 
+/**
+ * include static files (for example: js files)
+ */
+app.use('/js', express.static('js'));
+
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
