@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Sergey",
+    "position": "Middle JS Developer",
+    "age": 30,
+    "salary": 2500
+  },
+  {
+    "name": "Matvey",
+    "position": "Senior JS Developer",
+    "age": 36,
+    "salary": 3500
+  },
+  {
+    "name": "Nikolay",
+    "position": "Middle JS Developer",
+    "age": 29,
+    "salary": 2600
+  },
+  {
+    "name": "Vlad",
+    "position": ".NET Developer",
+    "age": 27,
+    "salary": 2800
+  },
+  {
+    "name": "Gosha",
+    "position": ".NET Developer",
+    "age": 31,
+    "salary": 3000
+  },
+  {
+    "name": "Sergey",
+    "position": "QA",
+    "age": 34,
+    "salary": 2000
+  }
+]
