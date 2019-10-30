@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cookies</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <td>Value</td>
+            <td><input type="text" id="val"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button id="addBtn">Add Cookie</button></td>
+        </tr>
+    </table>
+
+    <script>
+        document.getElementById('addBtn').onclick = () => {
+            const nameCookie = document.getElementById('name').value;
+            const valueCookie = document.getElementById('val').value;
+            const cookies = `${nameCookie}=${valueCookie}`;
+            document.cookie = cookies;
+        }
+    </script>
+</body>
+</html>
